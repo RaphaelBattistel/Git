@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(16, 46, 76);
+}
+
+
+.logo{
+    width: 30%;
+    float: none;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    float: left;
+}
+
+table{
+    border: aquamarine solid;
+    border-radius: 12px;
+    background-color: rgb(47, 87, 168);
+}
+
+th{
+    padding: 14px 16px;
+    width: 500px;
+    color: white;
+    
+}
+th:hover{
+    background-color: rgb(253, 228, 3);
+}
+
+main{
+    color: black;
+    background-color: #ffffff;
+    text-align: center;
+}
+footer{
+    color: #ffffff;
+    background-color: black;
+}
