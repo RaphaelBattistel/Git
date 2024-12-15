@@ -1,10 +1,10 @@
 body{
     background-color: rgb(16, 46, 76);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 .logo{
-    width: 30%;
     float: none;
     clear: both;
     display: block;
@@ -12,24 +12,30 @@ body{
     margin-right: auto;
 }
 
-nav{
-    float: left;
+img{
+    width: 30%;
 }
 
-table{
-    border: aquamarine solid;
+nav{
+    float: left;
+    color: #ffffff;
+}
+
+.menu{
+    border: rgb(39, 124, 229) solid;
     border-radius: 12px;
     background-color: rgb(47, 87, 168);
 }
 
 th{
+    flex-basis: auto;
+    flex-direction: row;
     padding: 14px 16px;
     width: 500px;
-    color: white;
-    
+    color: rgb(13, 68, 122);
 }
 th:hover{
-    background-color: rgb(253, 228, 3);
+    background-color: rgb(206, 188, 32);
 }
 
 main{
@@ -37,7 +43,91 @@ main{
     background-color: #ffffff;
     text-align: center;
 }
+
 footer{
     color: #ffffff;
-    background-color: black;
 }
+
+.foot{
+    float: left;
+}
+
+div.gallerie {
+    flex-basis: auto;
+    border: 1px solid #ccc;
+    width: 280px;
+    float: none;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+div.gallerie:hover {
+    border: 5px solid #777;
+  }
+  
+div.gallerie img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.carte{
+    width: 20%;
+}
+
+.light_blue{
+    background-color: rgb(90, 114, 160);
+    color: black;
+}
+
+.dark_mode{
+    background-color: black;
+    color: #ffffff;
+}
+
+
+/* formulaire */
+form {
+    border: 1px solid rgba(153, 153, 153, 0.6);
+    flex-basis: auto;
+    float: right;
+}
+
+form > div {
+    margin: 30px 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+    
+input {
+    height: 20px;
+    width: 40%;
+}
+
+button {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.error{
+    border: 1px solid rgb(131, 0, 31);
+    background-color: rgba(202, 0, 0, 0.4);
+}
+
+.success{
+    border: 1px solid rgb(81, 150, 2);
+    background-color:rgba(113, 212,0,0.4);
+}
+
